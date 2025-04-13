@@ -1,7 +1,7 @@
 Client = {}
 
-@param proximityRange number
-@return nil
+---@param proximityRange number
+---@return nil
 Client.DrawMarker = function(proximityRange)
     local coords = GetEntityCoords(PlayerPedId())
     local isInVehicle = IsPedInAnyVehicle(PlayerPedId(), false)
