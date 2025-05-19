@@ -33,6 +33,7 @@ function CreateProximityRange(proximityRange)
         end
     end)
     
+   -- your notify export here
     exports['h-notify']:Alert("SPRACHWEITE", "Sprachweite: " .. proximityRange .. "M", 3000, 'info')
 end
 
